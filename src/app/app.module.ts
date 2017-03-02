@@ -6,16 +6,23 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MaterialModule } from '@angular/material';
 import 'hammerjs';
+import { BusinessCardComponent } from './views/headers/business-card/business-card.component';
+import { ProductListComponent } from './views/productlist/product-list/product-list.component';
+import {RouterModule} from '@angular/router';
+import { appRoutes } from './app.routes';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BusinessCardComponent,
+    ProductListComponent
   ],
   imports: [
     MaterialModule,
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [],
   bootstrap: [AppComponent]
