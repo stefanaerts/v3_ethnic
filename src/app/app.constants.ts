@@ -13,5 +13,7 @@ public static get TITLEITALIC(): string { return 'foods'; }
  public static get PHONE2(): string { return '+32 (0)497 11 69 79'; }
   public static get EMAIL(): string { return 'info@ethnicfoods.be'; }
 
-  public static get IMAGEURL(): string { return 'http://ethnicfoods.stevegravy.com/wp-content/uploads/2016/01/PNI_4335-2.jpg'; }
+//  public static get IMAGEURL(): string { return 'http://ethnicfoods.stevegravy.com/wp-content/uploads/2016/01/PNI_4335-2.jpg'; }
+  public static get IMAGEURL(): string { return 'assets/test.jpg'; }
+
 };
