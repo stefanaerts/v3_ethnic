@@ -1,3 +1,4 @@
+6d34b87  
 6259dcc  
 47ac38f  
 6c89be2  
@@ -7,4 +8,3 @@ a38a7cf 3781e16   805821b color:yellow in businesscard 3912e72 test2 abeeabd te
 3912e72 test2
 abeeabd test1
 1bf1556 added git-latest-commit.txt to index.html
-336320b laatstel i src folder
