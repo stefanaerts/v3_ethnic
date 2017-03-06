@@ -1,1 +1,10 @@
-
+805821b color:yellow in businesscard
+3912e72 test2
+abeeabd test1
+1bf1556 added git-latest-commit.txt to index.html
+336320b laatstel i src folder
+9c89873 test terug gezet
+d4ac5d0 removed test
+a56a27c test laatste log
+5b8c297 laatste log weggedaan
+64a1208 commit 61c791bcdc75053cffcc1ba335cef1c10121b234 Author: Stefan Aerts <stefanaerts@Stefans-MacBook-Pro.local> Date:   Sun Mar 5 21:35:23 2017 +0100
