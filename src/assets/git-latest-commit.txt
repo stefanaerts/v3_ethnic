@@ -1,3 +1,4 @@
+90c83c0  
 155e44b  
 559c540  
 23a76b2  
@@ -7,4 +8,3 @@ f906ee7  
 47ac38f  
 6c89be2  
 a38a7cf 3781e16   805821b color:yellow in businesscard 3912e72 test2 abeeabd test1 1bf1556 added git-latest-commit.txt to index.html 336320b laatstel i src folder 9c89873 test terug gezet d4ac5d0 removed test a56a27c test laatste log 5b8c297 laatste log weggedaan
-3781e16  
