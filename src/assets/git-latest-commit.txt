@@ -1,5 +1,0 @@
-commit 1103766eb814cb21a04c9cebda6841c56be50a7c
-Author: Stefan Aerts <stefanaerts@Stefans-MacBook-Pro.local>
-Date:   Mon Mar 6 17:30:40 2017 +0100
-
-    changed borderstyle of businesscard
