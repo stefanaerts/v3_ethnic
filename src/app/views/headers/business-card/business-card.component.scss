@@ -1,9 +1,7 @@
 @import '../../../../styles';
 
 .mat-card{
-  background:mat-color($primary,500);
-  border-width: 5px;
-  border-color:($primary,700);
+  background:mat-color($primary,700);
 }
 .italic{
  font-style:italic;
