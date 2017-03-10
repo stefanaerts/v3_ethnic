@@ -6,10 +6,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --cc --watch false",
+    "ltest": "ng test --cc",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "devst": "lite-server"
+    "devst": "lite-server",
+    "showcoverage": "lite-server -c bs-config.json"
   },
   "private": true,
   "dependencies": {

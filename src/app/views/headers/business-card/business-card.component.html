@@ -1,13 +1,13 @@
 <md-card>
   <md-card-title-group>
     <md-card-title>{{title}}<span class="italic">{{titleitalic}}</span></md-card-title>
-    <md-card-subtitle class="color-white">{{subtitle}} , the best</md-card-subtitle>
+    <md-card-subtitle class="color-white">{{subtitle}}</md-card-subtitle>
     <md-card-subtitle class="color-white">{{address}}</md-card-subtitle>
     <span>
        <img alt="chef-cook" md-card-md-image src="{{imageUrl}}">
        <md-card-subtitle class="color-white"><br><span *ngIf="email"><i class="material-icons">email</i>{{email}}</span></md-card-subtitle>
     </span>
-     <md-card-subtitle class="color-white"><span *ngIf="phone"><i class="material-icons">phone</i>{{phone}}</span><br><span *ngIf="phone2"><i class="material-icons">phone</i>{{phone2}}</span> </md-card-subtitle>
+    <md-card-subtitle class="color-white"><span *ngIf="phone"><i class="material-icons">phone</i>{{phone}}</span><br><span *ngIf="phone2"><i class="material-icons">phone</i>{{phone2}}</span>      </md-card-subtitle>
 
   </md-card-title-group>
   <md-card-footer>
