@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/stefanaerts/v3_ethnic.svg?branch=master)](https://travis-ci.org/stefanaerts/v3_ethnic)
 
+[![Coverage Status](https://coveralls.io/repos/github/stefanaerts/v3_ethnic/badge.svg?branch=master)](https://coveralls.io/github/stefanaerts/v3_ethnic?branch=master)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
 
 ## Development server

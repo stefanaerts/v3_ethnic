@@ -30,8 +30,12 @@ before_script:
 script:
   - npm test
   - ng build --prod --aot
+  - npm run precache
 
 after_success:
+  #use	Set active Firebase project, manage project aliases.
+  #- firebase use default
+  - npm run coveralls
   - firebase deploy --token $FIREBASE_TOKEN
 
 notifications:

@@ -11,7 +11,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "devst": "lite-server",
-    "showcoverage": "lite-server -c bs-config.json"
+    "showcoverage": "lite-server -c bs-config.json",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
+    "coveralls": "^2.12.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "jshint": "^2.9.4",
@@ -44,6 +46,7 @@
     "karma-coverage-istanbul-reporter": "^0.2.0",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "lcov-summary": "^1.0.1",
     "lite-server": "^2.2.2",
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
